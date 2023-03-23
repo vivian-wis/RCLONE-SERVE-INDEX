@@ -1,5 +1,5 @@
 FROM developeranaz/rc-index:latest
-EXPOSE 80
+
 RUN curl -O 'https://raw.githubusercontent.com/developeranaz/Rclone-olderversion-Backup/main/rclone-current-linux-amd64.zip' && \
     unzip rclone-current-linux-amd64.zip && \
     cp /rclone-*-linux-amd64/rclone /usr/bin/ && \
